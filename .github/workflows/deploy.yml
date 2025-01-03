@@ -1,0 +1,25 @@
+name: Deployment
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  send-notification:
+    name: Send telegram message
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check commit message
+        id: check_commit
+        run: echo "skip_noti=$(echo "${{ github.event.commits[0].message }}" | grep -qE '^\[skip-noti\]' && echo "true" || echo "false")" >> $GITHUB_OUTPUT
+      - name: send telegram message on push
+        if: steps.check_commit.outputs.skip_noti != 'true'
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          message: |
+            🖥️ ☂️ Landing Page
+            Nhánh: ${{ github.ref }}
+            Tài khoản: ${{ github.actor }}
+            Nội dung: ${{ github.event.commits[0].message }}

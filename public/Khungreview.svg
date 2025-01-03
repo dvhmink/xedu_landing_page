@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1181" height="383" viewBox="0 0 1181 383">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #d99cec;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #880fad;
+      }
+
+      .cls-4 {
+        opacity: 0.12;
+      }
+    </style>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard 1">
+    <rect id="Rounded_Rectangle_10" data-name="Rounded Rectangle 10" class="cls-1" width="1181" height="384" rx="25" ry="25"/>
+    <path id="Rounded_Rectangle_10-2" data-name="Rounded Rectangle 10" class="cls-2" d="M44-1H839.5S836.279,130.692,883,235c38.473,85.892,128.5,148,128.5,148H44a25,25,0,0,1-25-25V24A25,25,0,0,1,44-1Z"/>
+    <path id="Rounded_Rectangle_10-3" data-name="Rounded Rectangle 10" class="cls-3" d="M25,0H820.5S817.279,131.692,864,236c38.473,85.892,128.5,148,128.5,148H25A25,25,0,0,1,0,359V25A25,25,0,0,1,25,0Z"/>
+    <path class="cls-4" d="M0,235l44,33L0,291V235Z"/>
+    <path class="cls-4" d="M213,384H699L673,271,535,164l-181,9L224,291Z"/>
+    <path class="cls-4" d="M656,0l-3,8,12,39,28,21,40-3,31-26,3-39H656Z"/>
+  </g>
+</svg>

@@ -1,0 +1,129 @@
+.xeduButton {
+  border-radius: 100%;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: 'none' !important;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  padding: 0 50px;
+}
+.fa-solid {
+  font-size: 40px;
+  color: white;
+}
+
+.font-weight-900 {
+  font-weight: 900;
+}
+
+.text-giant {
+  font-size: 6rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.unstyled-link {
+  color: white;
+  text-decoration: none;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+
+  /* color: #0087ca; */
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.xedu-btn {
+  color: white;
+  background-color: #4e0056;
+  padding-inline: 0.75rem;
+  padding-block: 0.75rem;
+  border-radius: 20%;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 250ms;
+}
+
+.xedu-btn:hover {
+  background-color: #fba6f9;
+  transform: scale(1.25);
+}
+
+.image-picker .rm-btn {
+  display: flex;
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition-duration: 400ms;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-picker .rm-btn:hover {
+  opacity: 1;
+}
+
+.hover-zoom-sm {
+  transition-duration: 0.4s;
+}
+
+.hover-zoom-sm:hover {
+  transform: scale(1.02);
+}
+
+.hover-jump-sm {
+  transition-duration: 0.3s;
+}
+
+.hover-jump-sm:hover {
+  transform: translate(0, -3px);
+}
+
+.hover-border-primary {
+  border: solid;
+  border-width: 1px;
+  border-color: darkgray;
+}
+
+.hover-border-primary:hover {
+  border: solid;
+  border-width: 1px;
+  border-color: #4e0056;
+}
+
+.ellipsis {
+  min-height: 2rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-height: 1.1rem;
+  white-space: pre-wrap;
+}

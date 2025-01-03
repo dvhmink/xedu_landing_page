@@ -1,0 +1,117 @@
+.tiptap-editor h1 {
+  font-size: 32px;
+}
+
+.tiptap-editor h2 {
+  font-size: 28px;
+}
+
+.tiptap-editor h3 {
+  font-size: 22px;
+}
+
+.tiptap-editor h4 {
+  font-size: 18px;
+}
+
+.tiptap-editor h5 {
+  font-size: 16px;
+}
+
+.tiptap-editor h6 {
+  font-size: 14px;
+}
+
+.tiptap-editor p {
+  margin: 0;
+}
+
+.tiptap-editor p + p {
+  margin-top: 0.5rem;
+}
+
+.tiptap-editor ul,
+.tiptap-editor ol {
+  padding: 0;
+  margin-left: 1rem;
+}
+
+.tiptap-editor ul li,
+.tiptap-editor ol li {
+  padding: 0;
+  margin-left: 1rem;
+}
+
+.tiptap-editor ul li ul,
+.tiptap-editor ul li ol {
+  margin-left: 2rem;
+}
+
+.tiptap-editor ul li ul li,
+.tiptap-editor ul li ol li {
+  margin-left: 3rem;
+}
+
+.tiptap-editor ul li ul li ul,
+.tiptap-editor ul li ul li ol,
+.tiptap-editor ul li ol li ul,
+.tiptap-editor ul li ol li ol {
+  margin-left: 4rem;
+}
+
+.tiptap-editor ul li ul li ul li,
+.tiptap-editor ul li ul li ol li,
+.tiptap-editor ul li ol li ul li,
+.tiptap-editor ul li ol li ol li {
+  margin-left: 5rem;
+}
+
+.tiptap-editor ul li ul li ul li ul,
+.tiptap-editor ul li ul li ul li ol,
+.tiptap-editor ul li ul li ol li ul,
+.tiptap-editor ul li ul li ol li ol,
+.tiptap-editor ul li ol li ul li ul,
+.tiptap-editor ul li ol li ul li ol,
+.tiptap-editor ul li ol li ol li ul,
+.tiptap-editor ul li ol li ol li ol {
+  margin-left: 6rem;
+}
+
+.tiptap-editor blockquote {
+  margin: 0;
+  padding: 0;
+  margin-left: 1rem;
+  border-left: #222 solid 4px;
+}
+
+.tiptap-editor code {
+  font-family: monospace;
+  background: #f1f1f1;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  display: block;
+}
+
+.tiptap-editor p img {
+  width: 100%;
+  max-height: 36rem;
+  object-fit: contain;
+}
+
+/* Basic editor styles */
+.ProseMirror {
+  min-height: 4rem;
+}
+
+.editor-mini .ProseMirror {
+  padding-top: 8px;
+}
+
+.ProseMirror-focused {
+  border: none;
+  outline: none;
+}
+
+.tiptap-menu input {
+  display: none;
+}
